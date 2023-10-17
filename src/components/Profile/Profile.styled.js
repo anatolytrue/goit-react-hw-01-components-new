@@ -7,6 +7,7 @@ const ProfileCard = styled.div`
         max-width: 300px;
         border: 1px solid #9e9e9e;
         border-radius: 4px;
+        box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.4);
         background-color: white;
     `
 const Description = styled.div`
