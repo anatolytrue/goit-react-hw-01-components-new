@@ -1,5 +1,5 @@
 import { Table, TableHeadItem, TableDescr, TableRaw} from "./TransactionHistory.styled"
-
+import PropTypes from 'prop-types'
 
 export function TransactionHistory({ items }) {
     return (<Table>
@@ -23,4 +23,15 @@ export function TransactionHistory({ items }) {
             }
         </tbody>
     </Table>)
+}
+
+TransactionHistory.propTypes = {
+    items: PropTypes.arrayOf(
+        PropTypes.shape({
+            id: PropTypes.string.isRequired,
+            type: PropTypes.string.isRequired,
+            amount: PropTypes.string.isRequired,
+            currency: PropTypes.string.isRequired
+        })
+    )
 }

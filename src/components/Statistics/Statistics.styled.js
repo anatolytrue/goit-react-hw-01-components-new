@@ -1,7 +1,6 @@
 import styled from "@emotion/styled"
 
 
-
 const StatisticsSection = styled.section`
     display: flex;
     flex-direction: column;
@@ -48,4 +47,5 @@ const Percentage = styled.span`
     font-weight: 400;
     color: #000;
 `
-export {StatisticsSection, Title ,StatList ,Item ,Label ,Percentage}
+export { StatisticsSection, Title, StatList, Item, Label, Percentage }
+

@@ -1,7 +1,7 @@
 import { Container, SectionHomework } from "./App.styled.jsx";
-import { Profile } from "components/Profile/Profile.jsx";
+import { Profile } from "components/Profile";
 import { Statistics } from "components/Statistics/Statistics.jsx";
-import { FriendList } from "components/FriendList/FriendList.jsx";
+import { FriendList } from "components/FriendList";
 import { TransactionHistory } from "components/TransactionHistory/TransactionHistory.jsx";
 import user from "../../data/user.json";
 import data from "../../data/data.json";
